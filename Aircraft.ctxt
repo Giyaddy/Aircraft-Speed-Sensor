@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=aircraft_type\ flaps\ slats\ trim_tab\ takeoff_speed
+comment0.target=Aircraft(java.lang.String,\ int,\ int,\ float,\ int)
+comment1.params=
+comment1.target=void\ aircraftInformation()
+numComments=2
