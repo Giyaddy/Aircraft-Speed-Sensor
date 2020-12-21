@@ -22,7 +22,7 @@ public class Wind{
         this.windTraceSpeed = windTraceSpeed;
     }
     
-    public void WindInformation(){
+    public void windInformation(){
         
         System.out.println("Wind Information : ");
         System.out.println("Speed : "+windSpeed);
