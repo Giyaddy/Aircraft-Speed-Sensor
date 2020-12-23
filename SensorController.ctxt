@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=a\ w
+comment0.target=SensorController(AircraftSpeedSensor,\ WindSpeedSensor)
+comment1.params=
+comment1.target=void\ activateController()
+comment2.params=
+comment2.target=void\ shutDownController()
+comment3.params=
+comment3.target=void\ idleController()
+comment4.params=
+comment4.target=Aircraft\ getAircraftData()
+comment5.params=
+comment5.target=Wind\ getWindData()
+numComments=6

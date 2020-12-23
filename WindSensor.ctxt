@@ -2,7 +2,5 @@
 comment0.params=
 comment0.target=void\ showDataInfo()
 comment1.params=
-comment1.target=void\ setWindData()
-comment2.params=
-comment2.target=void\ sendToAircraftSensor()
-numComments=3
+comment1.target=Wind\ sendToController()
+numComments=2

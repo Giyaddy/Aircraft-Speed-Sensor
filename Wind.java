@@ -22,11 +22,16 @@ public class Wind{
         this.windTraceSpeed = windTraceSpeed;
     }
     
-    public void WindInformation(){
+    public void windInformation(){
         
         System.out.println("Wind Information : ");
         System.out.println("Speed : "+windSpeed);
         System.out.println("Wind Direction : "+windDirection);
         System.out.println("Wind Trace Speed : "+windTraceSpeed);
+    }
+    
+    public String getAllData(){
+        String s = windSpeed+","+windDirection+","+windTraceSpeed;
+        return s;
     }
 }

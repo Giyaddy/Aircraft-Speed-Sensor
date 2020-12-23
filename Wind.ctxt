@@ -2,5 +2,7 @@
 comment0.params=windSpeed\ windTraceSpeed\ windPath
 comment0.target=Wind(int,\ int,\ java.lang.String)
 comment1.params=
-comment1.target=void\ WindInformation()
-numComments=2
+comment1.target=void\ windInformation()
+comment2.params=
+comment2.target=java.lang.String\ getAllData()
+numComments=3

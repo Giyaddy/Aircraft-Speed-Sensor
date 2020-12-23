@@ -9,10 +9,10 @@ public class Aircraft{
    private String aircraft_type;
    private int flaps;
    private int slats;
-   private float trim_tab;
+   private double trim_tab;
    private int takeoff_speed;
    
-   public Aircraft(String aircraft_type, int flaps, int slats, float trim_tab, int takeoff_speed){
+   public Aircraft(String aircraft_type, int flaps, int slats, double trim_tab, int takeoff_speed){
      this.aircraft_type = aircraft_type;
      this.flaps = flaps;
      this.slats = slats;
@@ -28,5 +28,10 @@ public class Aircraft{
        System.out.println("Slats : "+slats);
        System.out.println("Trim Tab : "+trim_tab);
        System.out.println("Take-Off Speed : "+takeoff_speed);
+   }
+   
+   public String getAllData(){
+       String s = aircraft_type+","+flaps+","+slats+","+trim_tab+","+takeoff_speed+",";
+       return s;
    }
 }

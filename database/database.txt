@@ -1,0 +1,2 @@
+aircraft_type,flaps,slats,trim_tab,takeoff_speed,wind_speed,wind_direction,wind_trace_speed
+A300-100,30,11,2.4,150,14,FRONT,9

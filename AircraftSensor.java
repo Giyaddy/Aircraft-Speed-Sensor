@@ -8,8 +8,5 @@
 public interface AircraftSensor
 {
     public void showDataInfo();
-    public void setAircraftData();
-    public void acceptData();
-    public void combineData();
-    public void toDatabase();
+    public Aircraft sendToController();
 }
