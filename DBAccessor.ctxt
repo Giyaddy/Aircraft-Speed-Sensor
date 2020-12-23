@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DBAccessor\ getInstance()
+comment1.params=key\ pass
+comment1.target=void\ authorize(java.lang.String,\ java.lang.String)
+comment2.params=a\ w
+comment2.target=void\ saveToDB(Aircraft,\ Wind)
+numComments=3

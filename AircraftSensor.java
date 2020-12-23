@@ -8,5 +8,5 @@
 public interface AircraftSensor
 {
     public void showDataInfo();
-    public void acceptData(Wind windData);
+    public Aircraft sendToController();
 }

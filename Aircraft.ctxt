@@ -1,6 +1,8 @@
 #BlueJ class context
 comment0.params=aircraft_type\ flaps\ slats\ trim_tab\ takeoff_speed
-comment0.target=Aircraft(java.lang.String,\ int,\ int,\ float,\ int)
+comment0.target=Aircraft(java.lang.String,\ int,\ int,\ double,\ int)
 comment1.params=
 comment1.target=void\ aircraftInformation()
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ getAllData()
+numComments=3
