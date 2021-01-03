@@ -29,4 +29,9 @@ public class Wind{
         System.out.println("Wind Direction : "+windDirection);
         System.out.println("Wind Trace Speed : "+windTraceSpeed);
     }
+    
+    public String getAllData(){
+        String s = windSpeed+","+windDirection+","+windTraceSpeed;
+        return s;
+    }
 }
